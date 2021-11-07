@@ -1,0 +1,709 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% CV template
+% LaTeX Template
+% Version 1.0 (09/12/2020)
+%
+% This template was downloaded from:
+% https://github.com/UlrikeBoehm/cv_template_ulrikeboehm
+%
+% Author:
+% Ulrike Boehm (ulrike.boehm@gmail.com)
+%
+% License:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[margin,line]{res}
+
+\oddsidemargin -.5in
+\evensidemargin -.5in
+\textwidth=6.0in
+\itemsep=0in
+\parsep=0in
+% if using pdflatex:
+%\setlength{\pdfpagewidth}{\paperwidth}
+%\setlength{\pdfpageheight}{\paperheight} 
+
+\newenvironment{list1}{
+  \begin{list}{\ding{113}}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
+      \setlength{\leftmargin}{0.17in}}}{\end{list}}
+\newenvironment{list2}{
+  \begin{list}{$\bullet$}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
+      \setlength{\leftmargin}{0.2in}}}{\end{list}}
+
+\usepackage{color,hyperref}
+%\definecolor{darkblue}{rgb}{0.33, 0.29, 0.31} % liver
+\definecolor{darkblue}{rgb}{0.25, 0.29, 0.3} % outerspace
+%\definecolor{darkblue}{rgb}{0.43, 0.39, .51}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=darkblue,
+}
+
+\usepackage{scrextend}
+
+% \usepackage[utf8]{inputenc}
+% \usepackage[english]{babel}
+ \usepackage{fancyhdr}
+% \usepackage{lastpage}
+
+ \pagestyle{fancy}
+ \fancyhf{}
+
+\renewcommand{\headrulewidth}{0pt}
+
+\cfoot{Page \thepage \hspace{1pt} of 8}
+
+ % \pagestyle{plain}
+
+\usepackage{enumitem,kantlipsum}
+
+\begin{document}
+
+%\pagestyle{plain}
+
+\name{Dr. Ulrike Boehm \hspace{10.8cm} Curriculum Vitae  \vspace*{.1in} } 
+
+\begin{resume}
+
+%%%%%%%%%%%%%%%%% CONTACT INFORMATION 
+
+\section{\sc Contact Information}
+\vspace{.05in}
+\begin{tabular}{@{}p{3.5in}p{4in}}
+ \href{https://www.janelia.org/}{Janelia Research Campus}     & {Phone:} +1 (202) 527-8121 \\            
+ \href{https://www.aicjanelia.org/}{Advanced Imaging Center}   & { E-mail:}   \href{mailto:boehmu@janelia.hhmi.org}{boehmu@janelia.hhmi.org}  \\         
+19700 Helix Drive & { Home:}  \href{http://ulrikeboehm.org/}{ulrikeboehm.org}\\       
+Ashburn, VA  20147 USA  &  \\     
+\end{tabular}
+
+%%%%%%%%%%%%%%%%% SUMMARY
+
+\section{\sc Summary}
+Physicist, microscope builder \& data scientist with a passion for community building/engagement, outreach, and teaching: I am a longstanding member of the superresolution community with over ten years of experience designing, building and running advanced light microscopy systems, analyzing microscopy data, and developing image acquisition \& analysis workflows. Furthermore, I have been highly engaged in community building/engagement, outreach, and teaching activities focusing on community service, women/diversity in science, open science, and microscopy for more than 15 years.
+
+%%%%%%%%%%%%%%%%% RESEARCH INTERESTS
+
+\section{\sc Research Interests}
+\begin{list2}
+\item Microscope design, development, and application across a wide range of biological models %with a focus on superresolution microscopy (STED, RESOLFT, SMLM)
+\item Development of image and data processing and analysis tools
+\item Machine learning and its application in microscopic image analysis
+\item Statistical methods for large datasets
+\item Open software and hardware tools for imaging and microscopy
+\end{list2}
+
+%%%%%%%%%%%%%%%%% POSITIONS
+
+\section{\sc Positions}
+{\bf Research Specialist} \hfill {2019 - present}\\
+\href{https://www.janelia.org/}{Janelia Research Campus}, \href{https://www.aicjanelia.org/}{Advanced Imaging Center}, Ashburn, VA, USA\\
+ \vspace*{-2mm}
+\begin{list2}
+\vspace*{-1mm}
+\item Handling and troubleshooting of  advanced light microscopes (iPALM, Lattice Light Sheet Microscope, SiMView Light Sheet Microscope, Aberration Corrected Multifocal Microscope, MOSAIC, FIB-SEM, cryo-SIM, etc.), sample preparation and image analysis
+\item Support of (inter)national visitors during technical consultations and their imaging sessions at the microscopes of  Janelia's Advanced Imaging Center
+\item Development and implementation of  new image and data analysis strategies for users from around the world
+\item Review of proposal drafts, and proposals submitted to the Advanced Imaging Center
+\item Design and realization of  microscopy and data analysis workshops and conferences
+\end{list2}
+{\bf Postdoctoral Research Fellow} \hfill {2017 - 2018}\\
+\href{https://www.nih.gov/}{National Institutes of Health}, \href{https://www.cancer.gov/}{National Cancer Institute}, Bethedsa, MD, USA\\
+\vspace*{-2mm}
+\begin{list2}
+\vspace*{-1mm}
+\item Design and construction a microscope for live-cell 5-color single-molecule transcription imaging in eukaryotic cells at high resolution in time and space to capture promoter-enhancer interactions 
+\item Development of advanced fluorescence labeling strategies for the genome based on dCas9 (CASFISH)
+\item Computational modeling and data analysis of 4D genome data
+\end{list2}
+{\bf Ph.D. Student} \hfill {2010 - 2016}\\
+\href{https://www.mpibpc.mpg.de/en}{Max Planck Institute for Biophysical Chemistry}, Göttingen, Germany\\
+\href{http://www.4pi.de/}{Department of NanoBiophotonics (Prof. Dr. Stefan W. Hell)}\\
+{\it Dissertation title:} “4Pi-RESOLFT nanoscopy”\\
+{\it Advisor:} Prof. Dr. Stefan W. Hell\\
+\vspace*{-2mm}
+\begin{list2}
+\vspace*{-1mm}
+\item Running of various imaging experiments (samples: block copolymers, synaptic vesicles) on an isoSTED microscope
+\item Design and construction of a two-color STED microscope
+\item Design and construction of a 4Pi-RESOLFT nanoscope, including optical and acquisition system.
+\item Development of acquisition software
+\item System/sample testing and optimization
+\end{list2}
+{\bf Master Student} \hfill {2009}\\
+\href{https://www.biochem.mpg.de/en}{Max Planck Institute of Biochemistry}, Martinsried/Munich, Germany\\
+\href{https://www.biochem.mpg.de/baumeister}{Department of Molecular Structural Biology (Prof. Dr. Wolfgang Baumeister)}\\
+{\it Dissertation title:} “Correlative microscopy at liquid nitrogen temperature”\\
+{\it Advisors:} Dr. Jürgen M. Plitzko, Prof. Dr. Wolfgang Baumeister\\
+\vspace*{-2mm}
+\begin{list2}
+\vspace*{-1mm}
+\item Development and testing of a cryo transfer shuttle (CryoStage²) for the reliable transfer of amorphous frozen-hydrated samples from a fluorescence to an electron microscope for correlative microscopy
+\item Further development and testing of the software based on scale-invariant feature transform (SIFT) for the correlative microscopy approach
+\end{list2}
+{\bf Undergraduate Researcher} - various research assistant positions \hfill {2005 - 2008}\\
+\vspace*{-2mm}
+\begin{list2}
+\vspace*{-1mm}
+\item Evaluation of the mechanical properties of actin filaments in combination with different actin-binding proteins at the Physics Department of the Technical University of Munich, Germany - Prof Andreas Bausch (2008)
+\item Study of HEK cells with FLIC-microscopy at the Max Planck Institute of Biochemistry, Martinsried, Germany - Prof Peter Fromherz (2008)
+\item Analysis of Multi-SANS data (with MIRA) and data of Cytochrome C (with the Neutron Spin Echo RESEDA) at the  \href{https://www.frm2.tum.de/en/home/}{Research Neutron Source Heinz Maier-Leibnitz (FRM II)}, Munich, Germany - Dr Robert Georgii and Prof Peter Böni (2007)
+\item Study of surfaces and DNA with an AFM at the Physics Department of the Technical University of Munich, Germany - Prof Thorsten Hugel (2006)
+\item Performance evaluation of an animal PET scanner at the  \href{https://www.mri.tum.de/}{university hospital "rechts der Isar"} , Munich, Germany - Prof Sibylle Ziegler (2006)
+\item Data analysis of water levels of the Baltic Sea at the Leibnitz Institute for Baltic Sea Research, Warnemünde, Germany - Dr Torsten Seifert (2005)
+\end{list2}
+
+%%%%%%%%%%%%%%%%% EDUCATION
+
+\section{\sc Education}
+{\bf MicroMasters in Statistics and Data Science} \hfill {2020 - 2021}\\
+\href{https://micromasters.mit.edu/ds/}{Massachusetts Institute of Technology / MITx}, Cambridge, MA, USA\\
+\vspace*{-3mm}\\
+{\bf Ph.D. in Physics} \hfill {2010 - 2015}\\
+\href{https://www.uni-heidelberg.de/en}{Heidelberg University}, Heidelberg, Germany\\
+\vspace*{-3mm}\\
+{\bf Diploma in Physics} \hfill {2004 - 2009}\\
+\href{https://www.tum.de/en/}{Technical University of Munich}, Munich, Germany
+
+%%%%%%%%%%%%%%%%% HONORS AND AWARDS
+
+\section{\sc Honors \& \\Awards} 
+{\bf Helmsley Fellowship}, Helmsley Charitable Trust  \hfill 2017
+
+\vspace*{-3mm}
+{\bf 66th Lindau Nobel Laureate Meeting}, Participant \hfill {2016}
+
+\vspace*{-3mm}
+{\bf Excellence Award}, Max Planck Society \hfill 2010
+
+\vspace*{-3mm}
+{\bf Oskar Karl Forster Scholarship}, Technical University of Munich  \hfill 2009
+
+\vspace*{-3mm}
+{\bf Study Career Scholarship}, Technical University of Munich  \hfill 2008
+
+%%%%%%%%%%%%%%%%% PUBLICATIONS
+
+\section{\sc Publications}
+
+\begin{enumerate}[leftmargin=*]
+
+\item[18.] {\bf Boehm U.}*, Nelson G.* et al., {\it QUAREP-LiMi: A community-driven initiative to establish guidelines for quality assessment and reproducibility for instruments and images in light microscopy.} Journal of Microscopy, p1-18 (2021). doi:https://doi.org/10.1111/jmi.13041
+
+\item[17.] {\bf Boehm U.}, Galbraith C. {\it Extending the performance capabilities of isoSTED.} Biophysical Journal, p3237-3239 (2021). doi:https://doi.org/10.1016/j.bpj.2021.07.005
+
+\item[16.] Rigano A., \dots, {\bf Boehm U.} et al., {\it Micro-Meta App: an interactive software tool to facilitate the collection of microscopy metadata based on community-driven specifications.} bioRxiv, p1-23 (2021). doi:https://doi.org/10.1101/2021.05.31.446382
+
+\item[15.] {\bf Boehm U.}*, Nelson G.* et al., {\it QUAREP-LiMi: a community endeavor to advance quality assessment and reproducibility in light microscopy.} Nature Methods, p1-4 (2021). \\doi:https://doi.org/10.1038/s41592-021-01162-y
+
+\item[14.] Huisman M., Hammer M., Rigano A., {\bf Boehm U.} et al., {\it A perspective on Microscopy Metadata: data provenance and quality control.} arXiv, p1-15 (2021). doi:https://arxiv.org/abs/1910.11370
+
+\item[13.] Hammer M., Huisman M., Rigano A., {\bf Boehm U.} et al., {\it Towards community-driven metadata standards for light microscopy: tiered specifications extending the OME model.} bioRxiv, p1-27 (2021). doi:https://doi.org/10.1101/2021.04.25.441198
+
+\item[12.] Rigano A., {\bf Boehm U.} et al., {\it WU-BIMAC/NBOMicroscopyMetadataSpecs: 4DN-BINA-OME (NBO) Microscopy Metadata Specifications.} zenodo, (2021). \\doi:https://doi.org/10.5281/zenodo.4710731
+
+\item[11.] {\bf Boehm U.}*, Nelson G.* et al., {\it QUAREP-LiMi: A community-driven initiative to establish guidelines for quality assessment and reproducibility for instruments and images in light microscopy.} arXiv, p1-17 (2021). doi:https://arxiv.org/abs/2101.09153
+
+\item[10.] Galbraith J., Aaron J., {\bf Boehm U.}, Chew T.-L. and Galbraith C., {\it Resolving the 3D Nano-architecture of the Actin Cytoskeleton.} Microscopy and Microanalysis, p1 (2020). doi:10.1017/\\S1431927620016736
+
+\item[9.] Brown-Harding H., Cordelieres F., Poujol C., {\bf Boehm U.}, Collinson L., {\it A ‘lockdown post’ from facility managers across the world.} FocalPlane, p1 (2020). doi:10.1242/focalplane.1244
+
+\item[8.]  {\bf Boehm U.}, Hell S.W., Schmidt, R., {\it 4Pi-RESOLFT nanoscopy.} Nature Comm. 7 (10504), p1-8 (2016). doi:10.1038/ncomms10504
+
+\item[7.] {\bf Boehm U.},  {\it 4Pi-RESOLFT nanoscopy.} PhD Thesis, Heidelberg University (2016) doi: 10.11\\588/HEIDOK.00020200
+
+\item[6.] {\bf Boehm U.}, Schmidt R., Hell S.W., {\it Live cell 4pi nanoscopy.} European Biophysics Journal with Biophysics Letters 2015 Jul 1 (Vol. 44, pp. S75-S75). 233 SPRING ST, NEW YORK, NY 10013 USA: SPRINGER.
+
+\item[5.] Ullal C.K., Primpke S., Schmidt R., {\bf Boehm, U.}, Egner A., Vana P, Hell S.W., {\it Flexible Microdomain Specific Staining of Block Copolymers for 3D Optical Nanoscopy.} Macromolecules, 44, p7508–7510 (2011). doi: 10.1021/ma201504f
+
+\item[4.] Ullal C., Schmidt R., {\bf  Boehm U.}, Primpke S., Vana P, Hell W.S.,  {\it STED Microscopy as a Characterization Tool for Three Dimensionally Nanostructured Block Copolymer Thin Films.} APS. 2011 Mar;2011:A43-002.
+
+\item[3.] Rigort A., Bäuerlein F.J., Leis A., Gruska M., Hoffmann C., Laugks T., {\bf Boehm U.}, Eibauer M., Gnaegi H., Baumeister W. and Plitzko J.M.,  {\it Micromachining tools and correlative approaches for cellular cryo-electron tomography.} J. Struct. Biol. 172, p169–179 (2010). doi: 10.1016/j.jsb.2010.02.011
+
+\item[2.] Rigort A., Mathisen C., {\bf Boehm U.}, Leis A., Lich B., Hayles M., Laugks T., Baumeister W. and Plitzko J.M.,  {\it Integrative Cryo-Correlative Microscopy Approaches.}
+Microscopy and Microanalysis. Vol 16(S2), p186–187 (2010). doi: 10.1017/S1431927610058216 
+
+\item[1.]{\bf Boehm U.},  {\it Korrelative Mikroskopie bei Flüssigstickstoff-Temperatur.} Diploma Thesis, Technical University of Munich (2010)  \\ \\
+$*$ these authors contributed equally to this work
+
+\end{enumerate}
+
+%%%%%%%%%%%%%%%%% PEER REVIEW
+
+\section{\sc Peer Review} 
+
+{\bf   Angewandte Chemie (International ed.)} \\
+\vspace*{-3mm}\\
+{\bf   Biophysical Journal}\\
+\vspace*{-3mm}\\
+{\bf   Biophysical Reports}\\
+\vspace*{-3mm}\\
+{\bf   Journal of Cell Science}\\
+\vspace*{-3mm}\\
+{\bf  Journal of Microscopy}\\
+\vspace*{-3mm}\\
+{\bf    Nature Methods}\\
+\vspace*{-3mm}\\
+{\bf    Review Commons}\\
+
+%%%%%%%%%%%%%%%%% CONFERENCE PRESENTATIONS
+
+\section{\sc  Presentations}
+
+%\vspace*{-2.5mm}
+{\bf  Chromatin Imaging/Nuclear Architecture SubGroup}  {\it (invited)}, \hfill 2021\\
+Harvard \& MIT, Boston, United States of America %\\
+%{\it  Title:} 4Pi‐RESOLFT nanoscopy: Nanometer scale 3D fluorescence imaging in whole living \\cells
+
+\vspace*{-2.5mm}
+{\bf  Janelia Advisory Committee Meeting}  \hfill 2021\\
+{\bf Better Science through Open Science and Collaborative Teams}  {\it (invited)}, \\
+Janelia Research Campus, Ashburn, United States of America %\\
+%{\it  Title:} 4Pi‐RESOLFT nanoscopy: Nanometer scale 3D fluorescence imaging in whole living \\cells
+
+\vspace*{-2.5mm}
+{\bf  Junior Scientist Workshop on Biological Optical Microscopy} {\it (invited)},  \hfill 2019\\
+Janelia Research Campus, Ashburn, United States of America %\\
+%{\it  Title:} 4Pi‐RESOLFT nanoscopy: Nanometer scale 3D fluorescence imaging in whole living \\cells
+
+\vspace*{-2.5mm}
+{\bf  Transcription Seminar} {\it (invited)}, Albert Einstein College of Medicine \hfill 2019\\
+ New York, United States of America%\\
+%{\it  Title:} 4Pi‐RESOLFT nanoscopy: Nanometer scale 3D fluorescence imaging in whole living \\cells
+
+\vspace*{-2.5mm}
+{\bf  Microscopy Seminar} {\it (invited)}, Havard Medical School \hfill 2019\\
+ Boston, United States of America%\\
+%{\it  Title:} 4Pi‐RESOLFT nanoscopy: Nanometer scale 3D fluorescence imaging in whole living \\cells
+
+\vspace*{-2.5mm}
+{\bf Microscopy Lunch Seminar} {\it (invited)}, UMass Medical School \hfill 2019\\
+ Worcester, United States of America%\\
+%{\it  Title:} 4Pi‐RESOLFT nanoscopy: Nanometer scale 3D fluorescence imaging in whole living \\cells
+
+\vspace*{-2.5mm}
+{\bf Single Biomolecules Meeting}, Cold Spring Harbor Laboratories  \hfill 2018\\
+Cold Spring Harbor, United States of America %\\
+%{\it  Title:} 4Pi‐RESOLFT nanoscopy: Nanometer scale 3D fluorescence imaging in whole living \\cells
+
+\vspace*{-2.5mm}
+{\bf NIH Light Microscopy Interest Group Seminar} {\it (invited)},   \hfill 2018\\
+ Bethesda, United States of America %\\
+%{\it  Title:} 4Pi‐RESOLFT nanoscopy: Nanometer scale 3D fluorescence imaging in whole living \\cells
+
+\vspace*{-2.5mm}
+{\bf Chan Zuckerberg Initiative Imaging Workshop} {\it (invited)}, CZ Biohub \hfill 2017\\
+ San Francisco, United States of America%\\
+%{\it  Title:} 4Pi‐RESOLFT nanoscopy: Nanometer scale 3D fluorescence imaging in whole living \\cells
+
+\vspace*{-2.5mm}
+{\bf Chesapeake Bay Area Single Molecule Biology Meeting},  \hfill 2017\\
+Baltimore, United States of America%\\
+%{\it  Title:} 4Pi‐RESOLFT nanoscopy
+
+\vspace*{-2.5mm}
+{\bf Frontiers in Imaging Science Conference}, Ashburn, United States of America \hfill 2017%\\
+%{\it  Title:} 4Pi‐RESOLFT nanoscopy: Nanometer scale 3D fluorescence imaging in whole living \\cells
+
+\vspace*{-2.5mm}
+{\bf Single Molecule Biophysics Conference}, Aspen, United States of America \hfill 2017%\\
+%{\it  Title:} 4Pi-RESOLFT nanoscopy
+
+\vspace*{-2.5mm}
+{\bf Labeling and Nanoscopy Conference}, Heidelberg, Germany \hfill 2016%\\
+%{\it  Title:} 4Pi‐RESOLFT nanoscopy: Nanometer scale 3D fluorescence imaging in whole living \\cells
+
+\vspace*{-2.5mm}
+{\bf MPIbpc Campus Seminar} {\it (invited)}, Göttingen, Germany \hfill 2016%\\
+%{\it  Title:} 4Pi-RESOLFT nanoscopy
+
+\vspace*{-2.5mm}
+{\bf NCI Departmental Seminar} {\it (invited)}, Bethesda, United States of America \hfill 2016%\\
+%{\it  Title:} 4Pi-RESOLFT nanoscopy
+
+\vspace*{-2.5mm}
+{\bf Departmental Seminar} {\it (invited)}, Wyss Institute at Havard University,  \hfill 2016\\
+Boston, United States of America
+%{\it  Title:} 4Pi-RESOLFT nanoscopy
+
+\vspace*{-2.5mm}
+{\bf Lunch Talk} {\it (invited)}, Havard, Cambridge, United States of America \hfill 2016%\\
+%{\it  Title:} 4Pi-RESOLFT nanoscopy
+
+\vspace*{-2.5mm}
+{\bf Biophysical Society Annual Meeting}, Los Angeles, United States of America \hfill 2016%\\
+%{\it  Title:} 4Pi-RESOLFT nanoscopy
+
+\vspace*{-2.5mm}
+{\bf Seeing Is Believing Symposium}, Heidelberg, Germany \hfill 2015%\\
+%{\it  Title:} 4Pi-RESOLFT nanoscopy
+
+\vspace*{-2.5mm}
+{\bf Deutsche Physikerinnen Tagung} {\it (invited)}, Göttingen, Germany \hfill 2015%\\
+%{\it  Title:} Far-field optical nanoscopy: principles and recent advancements
+
+\vspace*{-2.5mm}
+{\bf Annual meeting of the European Light Microscopy Initiative (ELMI)},  \hfill 2015\\Sitges, Spain%\\
+%{\it  Title:} Live cell 4Pi nanoscopy
+
+\vspace*{-2.5mm}
+{\bf Focus On Microscopy (FOM)}, Göttingen, Germany  \hfill 2015%\\
+%{\it  Title:} Live cell 4Pi nanoscopy
+
+\vspace*{-2.5mm}
+{\bf PROSPECTS. First Plenary Meeting}, Punta Negra, Majorca/Spain  \hfill 2010 %\\
+%{\it  Title:} Development of tools for investigating subcellular structures: Targeting of features in \\frozenhydrated cells via correlative cryomicroscopy
+
+%%%%%%%%%%%%%%%%% MENTORING
+
+\section{\sc Mentoring}
+
+{\bf  Janelia Buddy Program for International Scientists} \hfill 2020 - present\\
+Focus: Facilitating the transition of international scientists to Janelia in partnership \\
+with Janelia's Human Resource Department\\
+Janelia Research Campus, Ashburn, United States of America\\
+\vspace*{-3mm}\\
+{\bf  Mentoring of Postbac Students} \hfill 2020 - present\\
+Focus: Navigating a scientific career\\
+Janelia Research Campus, Ashburn, United States of America\\
+\vspace*{-3mm}\\
+{\bf  Mentoring of PhD, College and High School Students}  \hfill 2017 - 2018\\
+Focus: Navigating a scientific career, how to work in an optics laboratory \&\\
+in-depth support with individual research projects\\
+National Institutes of Health, Bethesda, United States of America\\
+\vspace*{-3mm}\\
+{\bf Mentoring of Ph.D. students and Master Students}  \hfill {2010 - 2016}\\
+Focus: Navigating a scientific career, how to work in an optics laboratory \&\\
+in-depth support with individual research projects\\
+Max Planck Institute for Biophysical Chemistry, Göttingen, Germany \\
+
+%%%%%%%%%%%%%%%%% CONFERENCE AND SYMPOSIUM ORGANIZATION
+
+\section{\sc Conference Organization}
+
+%{\bf Microscopy Club for North America}, Co-organizer \hfill {2021 - present}\\
+%Ashburn, United States of America\\
+%\vspace*{-3mm}\\
+{\bf \href{https://www.janelia.org/content/optical-interest-group}{OIG-ABG Educational Lectures}}, Organizer \hfill {2021 - present}\\
+Ashburn, United States of America\\
+\vspace*{-3mm}\\
+{\bf \href{https://www.janelia.org/node/65736}{Janelia \& EMBL BioImaging Seminar Series}}, Organizer \hfill {2020 - present}\\
+Ashburn, United States of America\\
+\vspace*{-3mm}\\
+{\bf Virtual Optical Interest Group (OIG) Seminar Series}, Co-organizer \hfill {2020}\\
+Virtual seminar series with external speakers via Zoom during the COVID-19 lockdown\\
+Ashburn, United States of America\\
+\vspace*{-3mm}\\
+{\bf \href{https://www.imagingafrica.org/}{Imaging Africa Microscopy Club}}, Webinar support \hfill {2020}\\
+Ashburn, United States of America\\
+\vspace*{-3mm}\\
+{\bf \href{https://www.janelia.org/you-janelia/conferences/frontiers-in-imaging-science-ii}{ Frontiers in Imaging Science Conference}}, Member of the local support team \hfill {2019}\\
+Ashburn, United States of America\\
+\vspace*{-3mm}\\
+{\bf \href{https://labeling-and-nanoscopy.de/}{Labeling and Nanoscopy Conference 2018}}, Website and social media support \hfill {2018}\\
+Heidelberg, Germany\\
+\vspace*{-3mm}\\
+{\bf Division of International Services (DIS) Immigration Symposium}, Organizer  \hfill {2018}\\
+National Institutes of Health, Bethesda, United States of America\\
+\vspace*{-3mm}\\
+{\bf International Opportunities EXPO}, Organizer \hfill {2018}\\
+National Institutes of Health, Bethesda, United States of America\\
+\vspace*{-3mm}\\
+{\bf Division of International Services (DIS) Immigration Symposium}, Organizer  \hfill {2017}\\
+National Institutes of Health, Bethesda, United States of America\\
+\vspace*{-3mm}\\
+{\bf \href{https://www.iscientist.berlin/}{I, Scientist Conference}},  Organizer \hfill {2017}\\
+Berlin, Germany\\
+\vspace*{-3mm}\\
+{\bf Labeling and Nanoscopy Conference 2016}, Organizer \hfill {2016}\\
+Heidelberg, Germany\\
+\vspace*{-3mm}\\
+{\bf Focus On Microscopy (FOM)}, Social media support \hfill {2015 - 2019}\\
+\vspace*{-3mm}\\
+{\bf PhDnet General Meeting}, Organizer \hfill {2011}\\
+Bonn, Germany
+
+%%%%%%%%%%%%%%%%% PROFESSIONAL SERVICES
+
+\section{\sc Professional Services}
+
+{\bf \href{https://analyticalscience.wiley.com/}{Wiley Analytical Science Magazine}}, Editorial Board Member  \hfill {2021 - present}\\
+Weinheim, Germany \\
+\vspace*{-3mm}\\
+{\bf \href{https://chanzuckerberg.com/rfa/expanding-global-access-bioimaging/}{CZI Expanding Global Access to Bioimaging}}, Grant reviewer \hfill {2021}\\
+San Francisco, United States of America\\
+\vspace*{-3mm}\\
+{\bf \href{https://quarep.org/}{QUAREP-LiMi}}, Chair of the "White Paper" working group \hfill {2020 - present}\\
+Freiburg, Germany\\
+\vspace*{-3mm}\\
+{\bf  \href{https://www.frontiersin.org/journals/bioinformatics/sections/computational-bioimaging}{ Frontiers in Bioinformatics}},  \href{https://www.frontiersin.org/journals/bioinformatics/sections/computational-bioimaging}{Review Editor for Computational BioImaging} \hfill {2020 - present}\\
+Lausanne, Switzerland\\
+\vspace*{-3mm}\\
+{\bf \href{https://chanzuckerberg.com/rfa/chan-zuckerberg-initiative-imaging-scientists/}{CZI Imaging Scientists Round 2}}, Grant reviewer \hfill {2020}\\
+San Francisco, United States of America\\
+\vspace*{-3mm}\\
+{\bf \href{https://quarep.org/}{QUAREP-LiMi}}, Vice-chair of the "Image Quality" working group  \hfill {2020 - present}\\
+Freiburg, Germany\\
+\vspace*{-3mm}\\
+{\bf \href{https://www.gerbi-gmb.de/}{German BioImaging}}, Committee member of the working groups for \hfill {2020 - present}\\
+ (1)  Training and Knowledge Transfer and\\
+(2) Image Data Analysis \& Management\\
+\vspace*{-3mm}\\
+{\bf \href{https://www.bioimagingna.org/}{BioImaging North America (BINA)}}, Committee member \hfill {2020 - present}\\
+of the "Quality Control and Data Management" working group\\
+\vspace*{-3mm}\\
+{\bf \href{https://www.janelia.org/content/optical-interest-group}{Janelia's Optical Interest Group (OIG)}}, Co-coordinator \hfill {2020 - present}\\
+Ashburn, Virginia, United States of America\\
+\vspace*{-3mm}\\
+{\bf \href{https://www.gain-network.org/en/about-gain/gain-chapters/}{GSO German Scholars Organization e.V.}}, Coordinator  \hfill {2020 - present}\\
+for Local Chapter of German Scientists, Ashburn\\
+\vspace*{-3mm}\\
+{\bf \href{https://asapbio.org/preprint-info/preprint-stories}{Accelerating Science and Publication in Biology (ASAPbio)}}, Ambassador \hfill {2018 - present}\\
+\vspace*{-3mm}\\
+{\bf \href{hhttps://elifesciences.org/inside-elife/912b0679/early-career-advisory-group-elife-welcomes-150-ambassadors-of-good-practice-in-science}{eLife Early-Career Advisory Group}}, Ambassador \hfill {2017 - 2019}\\
+\vspace*{-3mm}\\
+{\bf NIH Laser Safety Advisory Committee}, Committee member for the NCI \hfill {2018}\\
+National Institutes of Health, Bethesda, United States of America\\
+\vspace*{-3mm}\\
+{\bf \href{https://www.training.nih.gov/felcom/visitingfellows2}{NIH Visiting Fellows Committee}}, Co-chair \hfill {2017 - 2018}\\
+National Institutes of Health, Bethesda, United States of America\\
+\vspace*{-3mm}\\
+{\bf \href{https://confocal.ccr.cancer.gov/light-microscopy-interest-group/}{ NIH Light Microscopy Interest Group}}, Co-coordinator \hfill {2016 - present}\\
+National Institutes of Health, Bethesda, United States of America\\
+\vspace*{-3mm}\\
+{\bf  \href{https://www.dpg-physik.de/vereinigungen/fachuebergreifend/ak/akc}{DPG Arbeitskreis für Changengleichheit}}, Board member \hfill {2016 - present}\\
+Bad Honnef, Germany\\
+\vspace*{-3mm}\\
+{\bf \href{https://www.lindau-nobel.org/blog-women-in-research-at-lino70/}{Lindau Nobel Laureate Meeting}}, Freelance writer \hfill {2016 - present}\\
+Lindau, Germany\\
+\vspace*{-3mm}\\
+{\bf \href{https://www.br.de/fernsehen/ard-alpha/sendungen/alpha-forum/alpha-forum-extra-spitzenforschung-102.html}{66th Lindau Nobel Laureate Meeting}}, “Women in Science”-correspondent \hfill {2016}\\
+Lindau, Germany\\
+\vspace*{-3mm}\\
+{\bf \href{https://www.lise-meitner-gesellschaft.org/}{Lise Meitner Gesellschaft e.V.}}, Co-founder and board member \hfill {2011}\\
+Berlin, Germany\\
+\vspace*{-3mm}\\
+{\bf \href{https://www.phdnet.mpg.de/home}{Max Planck PhDnet}}, Steering group 2011 member \& deputy spokesperson \hfill {2011}\\
+Max Planck Society, Munich, Germany\\
+\vspace*{-3mm}\\
+{\bf  \href{https://www.mpibpc.mpg.de/phdcom}{PhD/Postdoc Community}}, PhD/Postdoc representative \hfill {2011 - 2014}\\
+Max Planck Institute for Biophysical Chemistry, Göttingen, Germany\\
+
+%%%%%%%%%%%%%%%%% PROFESSIONAL SERVICES
+
+\section{\sc Certificates \& Training}
+
+%{\bf Academic Writing Made Easy} \hfill {2020}\\
+%\vspace*{-3.5mm}
+%\begin{addmargin}[0pt]{.1\linewidth}
+%\vspace*{-1mm}
+%A 6-week course by TUM to make your academic writing stand out for all the right reasons, including paragraphing, style, tone, paraphrasing and punctuation.
+%\end{addmargin}
+%
+%\vspace*{-2mm}
+
+{\bf \href{https://www.edx.org/course/fundamentals-of-statistics}{Fundamentals of Statistics}} \hfill {2021}\\
+\vspace*{-3.5mm}
+\begin{addmargin}[0pt]{.1\linewidth}
+\vspace*{-1mm}
+A 18-week in-depth introduction course by MITx to develop and understand fundamental statistical principles on firm mathematical grounds starting from the construction of estimators and tests, as well as an analysis of their asymptotic performance.
+\end{addmargin}
+
+\vspace*{-2mm}
+
+{\bf \href{https://xpro.mit.edu/programs/program-v1:xPRO+LASERx/}{Leadership Principles for Scientists, Engineers, and Researchers}} \hfill {2021}\\
+\vspace*{-3.5mm}
+\begin{addmargin}[0pt]{.1\linewidth}
+\vspace*{-1mm}
+A four-month and four-course online program from MIT that empowers engineers, scientists, and researchers with the leadership acumen needed to solve problems, innovate, and drive change.
+\end{addmargin}
+
+\vspace*{-2mm}
+
+{\bf \href{https://www.edx.org/course/machine-learning-with-python-from-linear-models-to}{Machine Learning with Python: from Linear Models to Deep Learning}} \hfill {2021}\\
+\vspace*{-3.5mm}
+\begin{addmargin}[0pt]{.1\linewidth}
+\vspace*{-1mm}
+A 15-week in-depth introduction course by MITx to the field of machine learning, from linear models to deep learning and reinforcement learning, through hands-on Python projects.
+\end{addmargin}
+
+\vspace*{-2mm}
+
+{\bf \href{https://mitxonline.mit.edu/courses/course-v1:MITxT+14.310x/}{Data Analysis for Social Scientists}} \hfill {2020}\\
+\vspace*{-3.5mm}
+\begin{addmargin}[0pt]{.1\linewidth}
+\vspace*{-1mm}
+A 11-week course by MITx to learn methods for harnessing and analyzing data to answer questions of cultural, social, economic, and policy interest.
+\end{addmargin}
+
+\vspace*{-2mm}
+
+{\bf \href{https://www.edx.org/course/probability-the-science-of-uncertainty-and-data}{Probability - The Science of Uncertainty and Data}} \hfill {2020}\\
+\vspace*{-3.5mm}
+\begin{addmargin}[0pt]{.1\linewidth}
+\vspace*{-1mm}
+A 16-week course by MITx to build foundational knowledge of data science with an introduction to probabilistic models, including random processes and the basic elements of statistical inference.
+\end{addmargin}
+
+\vspace*{-2mm}
+
+{\bf Fierce Conversations program} \hfill {2020}\\
+\vspace*{-3.5mm}
+\begin{addmargin}[0pt]{.1\linewidth}
+\vspace*{-1mm}
+A 6-week course offered by Howard Hughes Medical Instiute about Feedback, Confrontation, Team, Delegation, Coaching and Accountability.
+\end{addmargin}
+
+\vspace*{-2mm}
+
+{\bf LabVIEW Core 2} \hfill {2020}\\
+\vspace*{-3.5mm}
+\begin{addmargin}[0pt]{.1\linewidth}
+\vspace*{-1mm}
+A certificate course offered by National Instruments about the LabVIEW basics.
+\end{addmargin}
+
+\vspace*{-2mm}
+
+{\bf LabVIEW Core 1} \hfill {2020}\\
+\vspace*{-3.5mm}
+\begin{addmargin}[0pt]{.1\linewidth}
+\vspace*{-1mm}
+A certificate course offered by National Instruments about the LabVIEW basics.
+\end{addmargin}
+
+\vspace*{-2mm}
+
+{\bf \href{https://online.hbs.edu/courses/entrepreneurship-essentials/}{HBS Entrepreneurship Essentials}} \hfill {2020}\\
+\vspace*{-3.5mm}
+\begin{addmargin}[0pt]{.1\linewidth}
+\vspace*{-1mm}
+Entrepreneurship Essentials is a 4-week, 30-hour online certificate program from Harvard Business School. Entrepreneurship Essentials introduces participants to the entrepreneurial journey from finding an idea to gaining traction in the marketplace to raising capital for a venture. Participants learn an overarching framework - People, Opportunity, Context, Deal - to evaluate opportunities, manage start-ups, and finance ventures.
+\end{addmargin}
+
+\vspace*{-2mm}
+
+{\bf \href{https://online.hbs.edu/courses/management-essentials/}{HBS Management Essentials}} \hfill {2019}\\
+\vspace*{-3.5mm}
+\begin{addmargin}[0pt]{.1\linewidth}
+\vspace*{-1mm}
+Management Essentials is an 8-week, 35-hour online certificate program from Harvard Business School. Management Essentials takes a distinctive, hands-on approach to management. Participants in this course learn to identify, understand, design, and shape critical organizational and managerial processes as a means of getting the work done.
+\end{addmargin}
+
+\vspace*{-2mm}
+
+{\bf \href{https://online.hbs.edu/courses/core/}{HBS CORe (Credential of Readiness)}} \hfill {2019}\\
+\vspace*{-3.5mm}
+\begin{addmargin}[0pt]{.1\linewidth}
+\vspace*{-1mm}
+CORe (Credential of Readiness) is a 150-hour certificate program on the fundamentals of business from Harvard Business School. CORe is comprised of three courses - Business Analytics, Economics for Managers, and Financial Accounting - developed by leading Harvard Business School faculty and delivered in an active learning environment based on the HBS signature case-based learning model.
+\end{addmargin}
+
+\vspace*{-2mm}
+
+{\bf Scientists Teaching Science} \hfill {2018}\\
+\vspace*{-3.5mm}
+\begin{addmargin}[0pt]{.1\linewidth}
+\vspace*{-1mm}
+at the Office of Intramural Training and Education (OITE) at the National Institutes of Health, Bethesda, United States of America (9-week online pedagogy course)
+\end{addmargin}
+
+\vspace*{-2mm}
+
+{\bf Research Mentor Training} \hfill {2018}\\
+\vspace*{-3.5mm}
+\begin{addmargin}[0pt]{.1\linewidth}
+\vspace*{-1mm}
+at the Office of Intramural Training and Education (OITE) at the National Institutes of Health, Bethesda, United States of America 
+\end{addmargin}
+
+\vspace*{-2mm}
+
+{\bf Business of Science for Scientists} \hfill {2018}\\
+\vspace*{-3.5mm}
+\begin{addmargin}[0pt]{.1\linewidth}
+\vspace*{-1mm}
+by SciPhD at the National Cancer Institute in Shady Grove, United States of America
+\end{addmargin}
+
+\vspace*{-2mm}
+
+{\bf Chromatin, Epigenetics and Gene Expression Course} \hfill {2018}\\
+\vspace*{-3.5mm}
+\begin{addmargin}[0pt]{.1\linewidth}
+\vspace*{-1mm}
+at the Cold Spring Harbor Laboratory (CSHL) in Cold Spring Harbor, NY, United States of America, Course instructors: Prof Karen Adelman, Dr Luciano Di Croce, Prof Geeta Narlikar, Prof Ali Shilatifard
+\end{addmargin}
+
+\vspace*{-2mm}
+
+{\bf BioTech2: Recombinant DNA Methodology} \hfill {2017}\\
+\vspace*{-3.5mm}
+\begin{addmargin}[0pt]{.1\linewidth}
+\vspace*{-1mm}
+at the Foundation for Advanced Education in the Sciences at the NIH (FAES), Bethesda, United States of America
+\end{addmargin}
+
+\vspace*{-2mm}
+
+{\bf Management Bootcamp for Postdocs} \hfill {2017}\\
+\vspace*{-3.5mm}
+\begin{addmargin}[0pt]{.1\linewidth}
+\vspace*{-1mm}
+at the Office of Intramural Training and Education (OITE) at the National Institutes of Health, Bethesda, United States of America
+\end{addmargin}
+
+\vspace*{-2mm}
+
+{\bf Ethics in Research Training for Postdocs} \hfill {2017}\\
+\vspace*{-3.5mm}
+\begin{addmargin}[0pt]{.1\linewidth}
+\vspace*{-1mm}
+at the Office of Intramural Training and Education (OITE) at the National Institutes of Health, Bethesda, United States of America
+\end{addmargin}
+
+\vspace*{-2mm}
+
+{\bf Workplace Dynamic Series} \hfill {2016}\\
+\vspace*{-3.5mm}
+\begin{addmargin}[0pt]{.1\linewidth}
+\vspace*{-1mm}
+about Self-Awareness, Conflict \& Feedback, Team Skills, Diversity In A Multicultural Society at the Office of Intramural Training and Education (OITE) at the National Institutes of Health, Bethesda, United States of America
+\end{addmargin}
+
+%%%%%%%%%%%%%%%%% COMPUTER SKILLS
+
+\section{\sc Computer Skills} 
+
+Languages:  Python, MATLAB, LabVIEW, R\\ % , Jave, C++
+Software: Inventor (CAD), Zemax, Imaris, Fiji, ImageJ
+
+%%%%%%%%%%%%%%%%% PROFESSIONAL AFFILIATION
+
+\section{\sc Professional Affiliation} 
+American Physical Society, German Physical Society, BioImaging North America (BINA), German BioImaging Society, Network of European BioImage Analyst (NEUBIAS), Quantitative BioImaging Society
+
+%%%%%%%%%%%%%%%%% LANGUAGES
+
+\section{\sc Languages} 
+German - native language\\English  - fluent, spoken and written  \\French - basic knowledge \\Swedish - basic knowledge% \\Spanish - basic knowledge
+
+%%%%%%%%%%%%%%%%% REFERENCES
+
+\section{\sc References} 
+Available upon request
+
+\vfill
+ \hfill \emph{Last updated {\today}.}
+
+\end{resume}
+\end{document}
